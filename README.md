@@ -1,3 +1,10 @@
+<div align="right">
+🌐
+<a href="https://github.com/wen-wen520/Minecraft.Datapack-Ore_Plus">English</a>
+&nbsp;|&nbsp;
+<a href="https://github.com/wen-wen520/Minecraft.Datapack-Ore_Plus/wiki/%E4%B8%AD%E6%96%87%E4%BB%8B%E7%BB%8D">中文</a>
+</div>
+
 <div align="center">
 
 <img src="assets/icon/main.png" alt="icon for this repo" style="width: 20%;">
@@ -123,5 +130,5 @@ Resource, Guide and Infomations
 [Minecraft Title Generator](https://github.com/ewanhowell5195/MinecraftTitleGenerator)\
 Use for assets in this project
 
-[Xray Ultimate Resource Pack](https://www.curseforge.com/minecraft/texture-packs/xray-ultimate-1-11-compatible)
+[Xray Ultimate Resource Pack](https://www.curseforge.com/minecraft/texture-packs/xray-ultimate-1-11-compatible)\
 Can exactly show the ores underground, used in gallery
