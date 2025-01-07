@@ -1,0 +1,24 @@
+{
+  "feature": "minecraft:ore_coal",
+  "placement": [
+    {
+      "type": "count",
+      "count": 256
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "min_inclusive": {
+          "absolute": -64
+        },
+        "max_inclusive": {
+          "absolute": 256
+        },
+        "type": "minecraft:uniform"
+      }
+    }
+  ]
+}

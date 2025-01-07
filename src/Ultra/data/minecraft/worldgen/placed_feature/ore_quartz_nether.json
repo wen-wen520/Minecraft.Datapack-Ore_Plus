@@ -1,27 +1,24 @@
 {
-  "feature": "minecraft:ore_quartz",
+  "feature": "minecraft:ore_quartz_nether",
   "placement": [
     {
-      "count": 256,
-      "type": "minecraft:count"
+      "type": "count",
+      "count": 256
     },
     {
       "type": "minecraft:in_square"
     },
     {
+      "type": "minecraft:height_range",
       "height": {
         "min_inclusive": {
           "absolute": 0
         },
         "max_inclusive": {
-          "absolute": 255
+          "absolute": 256
         },
         "type": "minecraft:uniform"
-      },
-      "type": "minecraft:height_range"
-    },
-    {
-      "type": "minecraft:biome"
+      }
     }
   ]
 }

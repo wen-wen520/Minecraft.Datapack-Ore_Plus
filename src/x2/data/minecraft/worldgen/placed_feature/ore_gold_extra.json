@@ -1,14 +1,15 @@
 {
-  "feature": "minecraft:ore_gold",
+  "feature": "minecraft:ore_gold_extra",
   "placement": [
     {
-      "count": 90,
-      "type": "minecraft:count"
+      "type": "count",
+      "count": 90
     },
     {
       "type": "minecraft:in_square"
     },
     {
+      "type": "minecraft:height_range",
       "height": {
         "min_inclusive": {
           "absolute": 32
@@ -17,11 +18,7 @@
           "absolute": 256
         },
         "type": "minecraft:uniform"
-      },
-      "type": "minecraft:height_range"
-    },
-    {
-      "type": "minecraft:biome"
+      }
     }
   ]
 }

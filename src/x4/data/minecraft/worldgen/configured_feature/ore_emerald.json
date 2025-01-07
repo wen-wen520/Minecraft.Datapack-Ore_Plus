@@ -1,4 +1,5 @@
 {
+  "type": "minecraft:replace_single_block",
   "config": {
     "targets": [
       {
@@ -19,9 +20,6 @@
           "Name": "minecraft:deepslate_emerald_ore"
         }
       }
-    ],
-    "size": 3,
-    "discard_chance_on_air_exposure": 0
-  },
-  "type": "minecraft:ore"
+    ]
+  }
 }

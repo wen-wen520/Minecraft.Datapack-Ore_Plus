@@ -1,14 +1,15 @@
 {
-  "feature": "minecraft:ore_diamond_small",
+  "feature": "minecraft:ore_diamond",
   "placement": [
     {
-      "count": 40,
-      "type": "minecraft:count"
+      "type": "count",
+      "count": 112
     },
     {
       "type": "minecraft:in_square"
     },
     {
+      "type": "minecraft:height_range",
       "height": {
         "min_inclusive": {
           "above_bottom": -80
@@ -16,12 +17,8 @@
         "max_inclusive": {
           "above_bottom": 80
         },
-        "type": "minecraft:trapezoid"
-      },
-      "type": "minecraft:height_range"
-    },
-    {
-      "type": "minecraft:biome"
+        "type": "minecraft:uniform"
+      }
     }
   ]
 }

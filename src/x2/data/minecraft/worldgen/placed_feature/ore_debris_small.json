@@ -2,13 +2,14 @@
   "feature": "minecraft:ore_ancient_debris_small",
   "placement": [
     {
-      "type": "minecraft:count",
+      "type": "count",
       "count": 8
     },
     {
       "type": "minecraft:in_square"
     },
     {
+      "type": "minecraft:height_range",
       "height": {
         "min_inclusive": {
           "above_bottom": 8
@@ -17,11 +18,7 @@
           "below_top": 8
         },
         "type": "minecraft:uniform"
-      },
-      "type": "minecraft:height_range"
-    },
-    {
-      "type": "minecraft:biome"
+      }
     }
   ]
 }

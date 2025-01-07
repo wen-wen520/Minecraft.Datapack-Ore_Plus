@@ -1,14 +1,15 @@
 {
-  "feature": "minecraft:ore_quartz",
+  "feature": "minecraft:ore_quartz_deltas",
   "placement": [
     {
-      "count": 56,
-      "type": "minecraft:count"
+      "type": "count",
+      "count": 56
     },
     {
       "type": "minecraft:in_square"
     },
     {
+      "type": "minecraft:height_range",
       "height": {
         "min_inclusive": {
           "above_bottom": 10
@@ -17,11 +18,7 @@
           "below_top": 10
         },
         "type": "minecraft:uniform"
-      },
-      "type": "minecraft:height_range"
-    },
-    {
-      "type": "minecraft:biome"
+      }
     }
   ]
 }

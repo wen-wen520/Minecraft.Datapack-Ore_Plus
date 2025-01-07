@@ -2,26 +2,23 @@
   "feature": "minecraft:ore_lapis",
   "placement": [
     {
-      "count": 8,
-      "type": "minecraft:count"
+      "type": "count",
+      "count": 20
     },
     {
       "type": "minecraft:in_square"
     },
     {
+      "type": "minecraft:height_range",
       "height": {
         "min_inclusive": {
-          "absolute": -32
+          "absolute": -20
         },
         "max_inclusive": {
-          "absolute": 32
+          "absolute": 54
         },
         "type": "minecraft:trapezoid"
-      },
-      "type": "minecraft:height_range"
-    },
-    {
-      "type": "minecraft:biome"
+      }
     }
   ]
 }

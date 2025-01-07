@@ -2,26 +2,23 @@
   "feature": "minecraft:ore_emerald",
   "placement": [
     {
-      "count": 256,
-      "type": "minecraft:count"
+      "type": "count",
+      "count": 256
     },
     {
       "type": "minecraft:in_square"
     },
     {
+      "type": "minecraft:height_range",
       "height": {
         "min_inclusive": {
           "absolute": -64
         },
         "max_inclusive": {
-          "absolute": 319
+          "absolute": 256
         },
-        "type": "minecraft:trapezoid"
-      },
-      "type": "minecraft:height_range"
-    },
-    {
-      "type": "minecraft:biome"
+        "type": "minecraft:uniform"
+      }
     }
   ]
 }
