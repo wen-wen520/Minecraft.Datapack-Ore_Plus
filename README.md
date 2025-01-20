@@ -5,6 +5,9 @@
 <a href="https://github.com/wen-wen520/Minecraft.Datapack-Ore_Plus/wiki/%E4%B8%AD%E6%96%87%E4%BB%8B%E7%BB%8D">中文</a>
 </div>
 
+>[!Note]
+>Recently update at 1/20/2025 with v2.15.41.2, for Minecraft 1.20 - 1.20.6
+
 <div align="center">
 
 <img src="assets/icon/main.png" alt="icon for this repo" style="width: 20%;">
