@@ -1,9 +1,9 @@
 {
-  "feature": "minecraft:ore_iron_small",
+  "feature": "minecraft:ore_diamond_medium",
   "placement": [
     {
       "type": "minecraft:count",
-      "count": 40
+      "count": 12
     },
     {
       "type": "minecraft:in_square"
@@ -13,10 +13,10 @@
       "height": {
         "type": "minecraft:uniform",
         "max_inclusive": {
-          "absolute": 72
+          "absolute": -4
         },
         "min_inclusive": {
-          "above_bottom": 0
+          "absolute": -64
         }
       }
     },
