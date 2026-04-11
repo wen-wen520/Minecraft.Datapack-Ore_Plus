@@ -1,6 +1,6 @@
 {
   "pack": {
     "pack_format": 6,
-    "description": ["\n[§d§lOre Plus §6§l§nUltra§r§f]\n\n §fEnhancing the quantity of vanilla ore generation ",{"text":"§f[§b§nSpecifics§r§f]","clickEvent": {"action":"open_url","value": "https://github.com/wen-wen520/Minecraft.Datapack-Ore_Plus/wiki"}},"\n §fMade by §dwen_wen \n\n §7Data Pack Version §f: §e1.0.1\n §7For Minecraft §f: §a1.16.2 - 1.16.5\n §7Update §f: 01/05/2025\n ",{"text":"§f[§b§nOpen Source Project§r§f]","clickEvent": {"action":"open_url","value": "https://github.com/wen-wen520/Minecraft.Datapack-Ore_Plus"}}]
+    "description": ["\n[§d§lOre Plus §6§l§nUltra§r§f]\n\n §fEnhancing the quantity of vanilla ore generation ",{"text":"§f[§b§nSpecifics§r§f]","clickEvent": {"action":"open_url","value": "https://github.com/wen-wen520/Minecraft.Datapack-Ore_Plus/wiki"}},"\n §fMade by §dwen_wen \n\n §7Data Pack Version §f: §e1.6.6.0\n §7For Minecraft §f: §a1.16.2 - 1.16.5\n §7Update §f: 04/10/2026\n ",{"text":"§f[§b§nOpen Source Project§r§f]","clickEvent": {"action":"open_url","value": "https://github.com/wen-wen520/Minecraft.Datapack-Ore_Plus"}}]
   }
 }
