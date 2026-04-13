@@ -2,7 +2,7 @@
   "pack": {
     "pack_format": 48,
     "supported_formats":{"min_inclusive":48,"max_inclusive":81},
-    "description": ["\n[§d§lOre Plus §a§l§nx2§r§f]\n\n §fIncreasing the quantity of vanilla ore generation ",{"text":"§f[§b§nSpecifics§r§f]","clickEvent": {"action":"open_url","value": "https://modrinth.com/datapack/ore_plus"}},"\n §fMade by §dwen_wen \n\n §7Data Pack Version §f: §e2.48.81.2\n §7For Minecraft §f: §a1.21-1.21.8\n §7Update §f: 07/22/2025\n ",{"text":"§f[§b§nOpen Source Project§r§f]","clickEvent": {"action":"open_url","value": "https://github.com/wen-wen520/Minecraft.Datapack-Ore_Plus"}}]
+    "description": ["\n[§d§lOre Plus §a§l§nx2§r§f]\n\n §fIncreasing the quantity of vanilla ore generation ",{"text":"§f[§b§nSpecifics§r§f]","clickEvent": {"action":"open_url","value": "https://modrinth.com/datapack/ore_plus"}},"\n §fMade by §dwen_wen \n\n §7Data Pack Version §f: §e2.48.81.3\n §7For Minecraft §f: §a1.21-1.21.8\n §7Update §f: 04/12/2026\n ",{"text":"§f[§b§nOpen Source Project§r§f]","clickEvent": {"action":"open_url","value": "https://github.com/wen-wen520/Minecraft.Datapack-Ore_Plus"}}]
   },
   "overlays": {
     "entries": [
