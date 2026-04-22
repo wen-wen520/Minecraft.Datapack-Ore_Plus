@@ -1,4 +1,4 @@
 # tips
-tellraw @s ["\n\n§bSystem §7>> §f [§d§lOre Plus §a§l§nx2§r§f] loaded successfully\n§bSystem §7>> §fIncreasing the quantity of vanilla ore generation ",{"text":"§f[§b§nSpecifics§r§f]","clickEvent": {"action":"open_url","value": "https://modrinth.com/datapack/ore_plus"}},"\n§bSystem §7>> §fMade by §dwen_wen \n\n§7Data Pack Version §f: §e12.0.0\n§7For Minecraft §f: §a1.19.4\n§7Update §f: 01/10/2025\n",{"text":"§f[§b§nOpen Source Project§r§f]\n\n","clickEvent": {"action":"open_url","value": "https://github.com/wen-wen520/Minecraft.Datapack-Ore_Plus"}}]
+tellraw @s ["\n\n§bSystem §7>> §f [§d§lOre Plus §a§l§nx2§r§f] loaded successfully\n§bSystem §7>> §fIncreasing the quantity of vanilla ore generation ",{"text":"§f[§b§nSpecifics§r§f]","clickEvent": {"action":"open_url","value": "https://modrinth.com/datapack/ore_plus_x2"}},"\n§bSystem §7>> §fMade by §dwen_wen \n\n§7Data Pack Version §f: §e1.12.12.0\n§7For Minecraft §f: §a1.19.4\n§7Update §f: 04/20/2026\n",{"text":"§f[§b§nOpen Source Project§r§f]\n\n","clickEvent": {"action":"open_url","value": "https://github.com/wen-wen520/Minecraft.Datapack-Ore_Plus"}}]
 # system
 scoreboard players set @s ore_plus.isload 1
