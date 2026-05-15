@@ -1,0 +1,58 @@
+name: Manual Build via DataPacker
+
+on:
+  workflow_dispatch:
+    inputs:
+      # Basic Parameters
+      modify_mcmeta:
+        type: boolean
+        description: 'Whether to modify mcmeta file'
+        required: false
+        default: true
+      simplified_mcmeta:
+        type: boolean
+        description: 'Whether to simplify mcmeta file'
+        required: false
+        default: true
+      build_type:
+        type: string
+        description: 'Type of build'
+        required: false
+        default: "build"
+      append_build_info:
+        type: boolean
+        description: 'Whether to append build info to the pack'
+        required: false
+        default: false
+      # Pack Info
+      pack_version:
+        type: string
+        description: 'Version of the packs'
+        required: true
+
+jobs:
+  datapacker:
+    uses: wen-wen520/workflow-minecraft_datapacker/.github/workflows/datapacker.yaml@v2.1.0
+    with:
+      # Basic Parameters
+      pack_count: 3
+      modify_mcmeta: ${{ github.event.inputs.modify_mcmeta }}
+      simplified_mcmeta: ${{ github.event.inputs.simplified_mcmeta }}
+      build_type: ${{ github.event.inputs.build_type }}
+      append_build_info: ${{ github.event.inputs.append_build_info }}
+
+      # Pack's detailed parameters
+      p1_id: "main_pack"
+      p1_name: "Ore_Plus_x2"
+      p1_path: "src/x2"
+      p1_version: ${{ github.event.inputs.pack_version }}
+
+      p2_id: "x4"
+      p2_name: "Ore_Plus_x4"
+      p2_path: "src/x4"
+      p2_version: ${{ github.event.inputs.pack_version }}
+
+      p3_id: "ultra"
+      p3_name: "Ore_Plus_Ultra"
+      p3_path: "src/Ultra"
+      p3_version: ${{ github.event.inputs.pack_version }}

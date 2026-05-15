@@ -1,0 +1,33 @@
+name: Auto Build On Push via DataPacker
+
+on:
+  push:
+    branches:
+      - '26.1'
+
+jobs:
+  datapacker:
+    uses: wen-wen520/workflow-minecraft_datapacker/.github/workflows/datapacker.yaml@v2.1.0
+    with:
+      # Basic Parameters
+      pack_count: 3
+      modify_mcmeta: true
+      simplified_mcmeta: false
+      build_type: "alpha"
+      append_build_info: true
+
+      # Pack's detailed parameters
+      p1_id: "x2"
+      p1_name: "Ore_Plus_x2"
+      p1_path: "src/x2"
+      p1_version: "3.100.101.0"
+
+      p2_id: "x4"
+      p2_name: "Ore_Plus_x4"
+      p2_path: "src/x4"
+      p2_version: "3.100.101.0"
+
+      p3_id: "ultra"
+      p3_name: "Ore_Plus_Ultra"
+      p3_path: "src/Ultra"
+      p3_version: "3.100.101.0"
