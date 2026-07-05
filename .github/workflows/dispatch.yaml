@@ -44,6 +44,7 @@ jobs:
       modify_mcmeta: ${{ github.event.inputs.modify_mcmeta == 'true' }}
       simplified_mcmeta: ${{ github.event.inputs.simplified_mcmeta == 'true' }}
       build_type: ${{ github.event.inputs.build_type }}
+      build_number: ${{ fromJson(github.event.inputs.build_number) }}
       append_build_info: ${{ github.event.inputs.append_build_info == 'true' }}
 
       # Pack's detailed parameters

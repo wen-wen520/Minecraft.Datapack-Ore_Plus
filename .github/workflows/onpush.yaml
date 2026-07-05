@@ -7,7 +7,7 @@ on:
 
 jobs:
   datapacker:
-    uses: wen-wen520/workflow-minecraft_datapacker/.github/workflows/datapacker.yaml@v2.1.0
+    uses: wen-wen520/workflow-minecraft_datapacker/.github/workflows/datapacker.yaml@v2.2.0
     with:
       # Basic Parameters
       pack_count: 3
